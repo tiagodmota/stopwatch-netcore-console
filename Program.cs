@@ -29,7 +29,7 @@ namespace Stopwatch
                 if (stopwatch.SecondsAndMillisseconds >= secondsAndMillissecondsPack)
                 {
                     ++stopwatch.Minutes;
-                    stopwatch.SecondsAndMillisseconds = 0M;k
+                    stopwatch.SecondsAndMillisseconds = 0M;
                 }
                 if (stopwatch.Minutes >= minutesPack)
                 {
